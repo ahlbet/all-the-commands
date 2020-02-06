@@ -9,7 +9,7 @@
 
 ### React Native
 
-- adb -s <device name> reverse tcp:8081 tcp:8081
+- adb -s "device-name" reverse tcp:8081 tcp:8081
 - cd android && ./gradlew assembleRelease
 
 ### Rails
